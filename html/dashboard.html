@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+
+  <title>Helth Track - Home</title>
+</head>
+
+<body>
+
+  <h1 id="hello-user">hello, FABIO</h1>
+  <div class="user-photo">
+    <img src="../images/user.png" alt="user-photo">
+  </div>
+
+  <div class="grafico-health-1">
+    <h2>Segunda-feira</h2>
+    <img src="../images/40% (1).png" alt="40%" id="img-40">
+
+    <h2>Terça-feira</h2>
+    <img src="../images/60%.png" alt="60%">
+
+    <h2 class="img-20">Quarta-feira</h2>
+    <img src="../images/20%.png" alt="20%" class="img-20">
+  </div>
+
+  <div class="grafico-health-column2 ">
+    <h2>Quinta-feira</h2>
+    <img src="../images/60%.png" alt="40%" id="img-60">
+
+    <h2>Sexta-feira</h2>
+    <img src="../images/20%.png" alt="00%">
+
+    <h2 class="img-20">Sabado</h2>
+    <img src="../images/40% (1).png" alt="40%" class="img-20">
+  </div>
+
+  <div class="container-adiciona-peso">
+    <p>
+      <a class="btn-adiciona" data-bs-toggle="collapse" href="#collapseExemplo" role="button" aria-expanded="false" aria-controls="collapseExemplo">
+        Adicionar Peso
+      </a>
+    </p>
+    <form class="card card-body" id="collapseExemplo">
+      <div class="data">
+        <input type="date" class="form-control" id="add-data" placeholder="Insira a data de hoje..." />
+      </div>
+      <div class="qtd-peso">
+        <input type="text" class="form-control" id="qtd-peso" placeholder="Insira seu peso atual..." />
+      </div>
+      <button type="submit" class="btn-concluir"><a href="../html/dashboard.html">Concluir</a></button>
+    </form>
+  </div>
+
+  <div class="container-adiciona-atvd">
+    <p>
+      <a class="btn-adiciona" data-bs-toggle="collapse" href="#collapseExemplo" role="button" aria-expanded="false" aria-controls="collapseExemplo">
+        Adicionar Atividade Física Realizada
+      </a>
+    </p>
+    <form class="card card-body" id="collapseExemplo">
+      <div class="data">
+        <input type="date" class="form-control" id="add-data" placeholder="Insira a data de hoje..." />
+      </div>
+      <div class="atividade-fisica">
+        <input type="text" class="form-control" id="tipo-atvd" placeholder="Insira a atividade física..." />
+      </div>
+      <button type="submit" class="btn-concluir"><a href="../html/dashboard.html">Concluir</a></button>
+    </form>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

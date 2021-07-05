@@ -1,0 +1,89 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+    background: linear-gradient(149.5deg, rgba(0, 0, 0, 0.83) 45.12%, #FF05E6 81.47%);
+    }
+    
+    #helth_hello {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        
+        position: absolute;
+        width: 157px;
+        height: 82px;
+        left: 60%;
+        top: 10%; 
+    
+        color: white;
+        font-family: Rhodium Libre;
+    }
+    
+    .username {
+        position: absolute;
+        left: 40%;
+        right: 8%;
+        top: 35%;
+    
+        background: rgba(255, 255, 255, 0.91);
+        border-radius: 12px;
+    }
+    
+    .password {
+        position: absolute;
+        left: 40%;
+        right: 8%;
+        top: 45%;
+    
+        background: rgba(255, 255, 255, 0.91);
+        border-radius: 12px;
+    }
+    
+    .btn-login {
+    
+        position: absolute;
+        width: 261px;
+        height: 40px;
+        left: 55%;
+        top: calc(50% - 40px/2 + 66px);
+    
+        background: #000000;
+        border-radius: 30px;
+        
+        font-family: Rhodium Libre;
+        color: white;
+        text-transform: uppercase;
+    
+    }
+    
+    .btn-login-facebook {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        left: 56%;
+        right: 81.22%;
+        top: calc(55% - 40px/2 + 66px);
+    
+    
+    }
+    
+    .btn-login-instagram {
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        left: 62.5%;
+        right: 81.22%;
+        top: calc(55.8% - 40px/2 + 66px);
+    }
+    
+    .btn-login-gmail {
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        left: 68.5%;
+        right: 81.22%;
+        top: calc(55.8% - 40px/2 + 66px);
+    }
